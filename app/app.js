@@ -11,8 +11,8 @@ app.get('/', function (req, res) {
     message: "Hello World!",
     markup: '<a href="#">OMG a link</a>'
   };
-  
-  res.render('index', content);
+
+  res.render('boilerplate', content);
 });
 
 app.listen(3000);
