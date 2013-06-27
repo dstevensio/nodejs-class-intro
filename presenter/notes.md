@@ -32,9 +32,7 @@ Now and throughout development, open up Node API docs & Express docs:
 edit  `app.js` in favorite text editor (make clear that text editor is personal
 preference, no one editor is required)
 
-`
-app.listen(3000);
-`
+`app.listen(3000);`
 
 App is now listening on port - explain concept that node listens for
 connections on a port, and that file path is irrelevant re: connecting to
@@ -43,11 +41,11 @@ application file
 Now, it's listening for connections but no routes defined, so define a route
 for the root of the domain:
 
-`
-app.get('/', function (req, res) {
-  res.send('Hello World!');
-});
-`
+```js
+        app.get('/', function (req, res) {
+          res.send('Hello World!');
+        });
+```
 
 Explain the HTTP verb correlation for get
 Explain the callback
@@ -59,7 +57,6 @@ now see fruits of labor:
 `node app.js`
 
 <http://localhost:3000>
-
 
 
 ***Move to step1 folder to catch up if needed***
@@ -155,7 +152,7 @@ app.post('/', function (req, res) {
   var content = {
     message: "Say what?",
     markup: '<a href="/">Return home</a>',
-    enteredText: req.body.message
+    enteredText: req.body.enteredText
   };
 
   res.render('boilerplate', content);
