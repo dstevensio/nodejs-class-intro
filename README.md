@@ -21,8 +21,9 @@ Twitter: [@shakefon](http://twitter.com/shakefon)
 Getting Started
 ---
 
-Clone this repository. We will begin in the master branch, and then when
-directed, switch to the next step's branch (they're named step1, step2, etc)
+Clone this repository. We will begin in the app/start directory, and each step
+can be caught up by switching to stepN/ folder where N is the number of the
+step you are catching up to.
 
-Before switching branches, you'll want to either stash your changes (`git
-stash`) if there's something you want to keep, or do a `git reset --hard`
+If you do catch up by switching directories, remember to do npm install inside
+that directory before trying to run the app.

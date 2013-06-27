@@ -1,0 +1,16 @@
+{
+  "name": "example-app",
+  "version": "0.0.0",
+  "description": "node.js class example app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "Dave Stevens <davestevens84@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~3.2.6",
+    "hbs": "~2.3.0"
+  }
+}
